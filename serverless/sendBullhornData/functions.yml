@@ -1,0 +1,10 @@
+sendbullhorndata:
+  handler: dist/handler.sendbullhorndata
+  timeout: 30
+  memorySize: 128
+  events:
+    - http:
+        path: send-bullhorn-data
+        method: get
+        cors:
+          origin: '*'
