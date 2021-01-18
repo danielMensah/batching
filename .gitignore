@@ -9,3 +9,4 @@ jspm_packages
 .idea
 dist
 terraform.tfstate
+terraform.tfstate.backup
